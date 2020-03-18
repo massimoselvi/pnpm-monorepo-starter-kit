@@ -9,12 +9,23 @@
     "url": "https://github.com/massimoselvi/aws-vue-monorepo-starterkit.git"
   },
   "private": true,
-  "devDependencies": {
-    "lerna": "^3.13.4"
-  },
   "workspaces": [
     "packages/*",
     "pocs/*",
     "apps/*"
-  ]
+  ],
+  "devDependencies": {
+    "lerna": "^3.13.4"
+  },
+  "config": {
+    "imageRepo": "massimoselvi/aws-vue-monorepo-starterkit",
+    "imageName": "aws-vue-monorepo-starterkit"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish"
+  },
+  "engines": {
+    "node": ">= 8"
+  }
 }
