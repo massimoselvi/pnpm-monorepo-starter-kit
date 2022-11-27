@@ -1,5 +1,5 @@
 # aws-vue-monorepo-starterkit
-Starter Kit to develop Vue apps on AWS services
+Starter Kit to develop an ecosystem of apps with shared packages
 
 ### Main Structure
 
