@@ -1,12 +1,12 @@
 {
-  "name": "aws-vue-monorepo-starterkit",
+  "name": "pnpm-monorepo-starter-kit",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "author": "Massimo Selvi <massimoselvi@mac.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/massimoselvi/aws-vue-monorepo-starterkit.git"
+    "url": "https://github.com/massimoselvi/pnpm-monorepo-starter-kit.git"
   },
   "private": true,
   "workspaces": [
@@ -18,8 +18,8 @@
     "lerna": "^3.20.2"
   },
   "config": {
-    "imageRepo": "massimoselvi/aws-vue-monorepo-starterkit",
-    "imageName": "aws-vue-monorepo-starterkit"
+    "imageRepo": "massimoselvi/pnpm-monorepo-starter-kit",
+    "imageName": "pnpm-monorepo-starter-kit"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
